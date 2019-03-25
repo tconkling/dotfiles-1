@@ -12,3 +12,19 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Temp files
+*~
+~*
+
+# Xcode
+xcuserdata/
+project.xcworkspace
+bin-debug/
+xcode-build/
+
+# JetBrains
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/
+*.iml
