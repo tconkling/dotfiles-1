@@ -116,6 +116,13 @@
 	# https://git-scm.com/docs/git-update-index#_untracked_cache
 	untrackedCache = true
 
+	# Deal with line endings. This is the proper value for Mac and Linux.
+	# Windows should be `autocrlf = true`
+	autocrlf = input
+
+	# Don't ignore file case differences
+	ignorecase = false
+
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
