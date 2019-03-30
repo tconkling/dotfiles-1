@@ -123,6 +123,11 @@
 	# Don't ignore file case differences
 	ignorecase = false
 
+[fetch]
+
+	# Prune deleted remote branches on fetch or pull
+    prune = true
+
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
