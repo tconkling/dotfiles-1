@@ -55,3 +55,5 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Add fzf integration
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+# Increase node heap size
+export NODE_OPTIONS=--max_old_space_size=4096
