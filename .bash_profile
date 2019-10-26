@@ -57,3 +57,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Increase node heap size
 export NODE_OPTIONS=--max_old_space_size=4096
+
+# Export AIR_HOME, for AIRSDK usage
+export AIR_HOME=/export/flex
