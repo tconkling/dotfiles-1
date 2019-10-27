@@ -58,8 +58,9 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Increase node heap size
 export NODE_OPTIONS=--max_old_space_size=4096
 
-# Export AIR_HOME, for AIRSDK usage
-export AIR_HOME=/export/flex/AIRSDK32
+# AIR_HOME, AIR_VERSIONS_HOME, for Adobe AIR SDK
+export AIR_HOME=/export/flex/AIRSDK33
+export AIR_VERSIONS_HOME=/export/flex
 
 # Activate pyenv
 eval "$(pyenv init -)"
