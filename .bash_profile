@@ -62,5 +62,7 @@ export NODE_OPTIONS=--max_old_space_size=4096
 export AIR_HOME=/export/flex/AIRSDK33
 export AIR_VERSIONS_HOME=/export/flex
 
+export STEAM_SDK=/export/steamworks
+
 # Activate pyenv
 eval "$(pyenv init -)"
