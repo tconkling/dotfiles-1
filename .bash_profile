@@ -57,14 +57,5 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Add fzf integration
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-# Increase node heap size
-export NODE_OPTIONS=--max_old_space_size=4096
-
-# AIR_HOME, AIR_VERSIONS_HOME, for Adobe AIR SDK
-export AIR_HOME=/export/flex/AIRSDK33
-export AIR_VERSIONS_HOME=/export/flex
-
-export STEAM_SDK=/export/steamworks
-
 # Activate pyenv
 eval "$(pyenv init -)"

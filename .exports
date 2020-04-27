@@ -32,3 +32,12 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
+
+# Increase node heap size
+export NODE_OPTIONS=--max_old_space_size=4096
+
+# AIR_HOME, AIR_VERSIONS_HOME, for Adobe AIR SDK
+export AIR_HOME=/export/flex/AIRSDK33
+export AIR_VERSIONS_HOME=/export/flex
+
+export STEAM_SDK=/export/steamworks
